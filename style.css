@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Work Sans', sans-serif;
+}
+.common_width{
+    width: 80%;
+    margin: 0 auto;
+}
+.banner_container{
+    background-image: url('imgaes/banner.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.banner_container .blank_div{
+    width: 50%;
+}
+.banner_container .banner_info{
+    padding-left:200px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.banner_info h3{
+  color:#FFFFFF;
+font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+
+}
+.banner_info p{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: right;
+color: #FFFFFF;
+}
+.banner_info .btn{
+    font-family: 'Inter';
+    color: #005FAC;
+    background-color: white;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        border: none;
+        margin-top: 20px;
+        padding: 20px 36.2px;
+        border-radius: 8px;
+}
+
+/* about me section  start from here */
+
+.about_me{
+    background-color: #FFFFFF;
+    padding:50px 20px;
+    display: flex;
+}
+.about_container{
+    display: flex;
+    align-items: center;
+   gap: 100px;
+}
+.about_right h3{
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+}
+.about_right p{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+ font-size: 16px;
+line-height: 26px;
+margin-top: 20px;
+}
+.previous_info{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+}
+.previous_info_img{
+ width: 15px;
+ height: 15px;
+}
+.previous_info_text{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+}
+.my_section_container{
+    padding: 50px 0px;
+}
+
+/* my plan section design start from here  */
+.my_plan{
+    font-family: 'Work Sans';
+     font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+}
+.myPlan{
+    background-color: white;
+}
+.my_plan_info{
+    display: flex;
+    gap: 50px;
+}
+.single_my_plan_info{
+    padding-top: 60px;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.single_my_plan_info img{
+    Width :92.96px;
+     Height:  92.96px
+}
+.single_my_plan_info h3{
+    font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        color: #151414;
+}
+.single_my_plan_info p{
+font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+     color: #737272;
+}
+
+/* postive content design start from here  */
+
+.stay_positive{
+    width: 1140px;
+    height: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background:linear-gradient(to right, rgba(67, 44,180, .6), rgba(11, 49, 99, 0.144)),url('imgaes/rec1.png');
+    background-repeat: no-repeat;
+  
+}
+.stypositive{
+    padding: 100px 0px;
+}
+.stay_positive h3{
+    font-family: 'Work Sans';
+    color: white;
+    padding: 20px;
+    padding-top: 80px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        text-justify: center;
+}
+.stay_positive button{
+    font-family: 'Work Sans';
+    margin: 20px;
+        font-style: normal;
+        padding: 10px 25px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        background-color: white;
+    border: none;
+        color: #005FAC;
+}
+
+/* footer section design start  */
+
+.footer{
+    background-color: black;
+    padding: 100px 0px;
+}
+.footer_container{
+    display: flex;
+    gap: 150px;
+}
+.footer_left_info h3 {
+    font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 53px;
+         color: #F8F8F8;
+}
+.footer_left_info p{
+    font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+}
+.footer_right_info{
+    margin-left: 150px;
+}
+.footer_right_info h3 {
+    font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 53px;
+        color: #F8F8F8;
+}
+.input_right{
+    padding: 15px 25px;
+    outline: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-top: 15px;
+}
+.footer_right_info .btn{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        background-color: #005FAC;
+        color: white;
+        margin-top: 20px;
+        padding: 20px 36.2px;
+        border-radius: 8px;
+}
+.footer_icon a img{
+    margin-top: 20px;
+    width: 47px;
+        height: 46px;
+}
